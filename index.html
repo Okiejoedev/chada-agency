@@ -126,6 +126,14 @@
             max-width: 1200px;
             margin-left: auto;
             margin-right: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        @media (max-width: 640px) {
+            .container {
+                padding-left: 0.75rem;
+                padding-right: 0.75rem;
+            }
         }
         .flex {
             display: flex;
@@ -227,9 +235,21 @@
             font-size: 2.25rem;
             line-height: 2.5rem;
         }
+        @media (max-width: 640px) {
+            .text-4xl {
+                font-size: 1.875rem;
+                line-height: 2.25rem;
+            }
+        }
         .md\:text-6xl {
             font-size: 3.75rem;
             line-height: 1;
+        }
+        @media (max-width: 768px) {
+            .md\:text-6xl {
+                font-size: 2.5rem;
+                line-height: 1.2;
+            }
         }
         .mb-6 {
             margin-bottom: 1.5rem;
@@ -237,6 +257,12 @@
         .text-xl {
             font-size: 1.25rem;
             line-height: 1.75rem;
+        }
+        @media (max-width: 640px) {
+            .text-xl {
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+            }
         }
         .mb-8 {
             margin-bottom: 2rem;
@@ -297,8 +323,23 @@
         .grid-cols-2 {
             grid-template-columns: repeat(2, minmax(0, 1fr));
         }
+        @media (max-width: 640px) {
+            .grid-cols-2 {
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+            }
+        }
         .md\:grid-cols-4 {
             grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+        @media (max-width: 768px) {
+            .md\:grid-cols-4 {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+        @media (max-width: 640px) {
+            .md\:grid-cols-4 {
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+            }
         }
         .gap-8 {
             gap: 2rem;
@@ -307,20 +348,46 @@
             font-size: 1.875rem;
             line-height: 2.25rem;
         }
+        @media (max-width: 640px) {
+            .text-3xl {
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+        }
         .mb-16 {
             margin-bottom: 4rem;
         }
         .md\:grid-cols-2 {
             grid-template-columns: repeat(2, minmax(0, 1fr));
         }
+        @media (max-width: 768px) {
+            .md\:grid-cols-2 {
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+            }
+        }
         .lg\:grid-cols-3 {
             grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+        @media (max-width: 1024px) {
+            .lg\:grid-cols-3 {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+        @media (max-width: 768px) {
+            .lg\:grid-cols-3 {
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+            }
         }
         .bg-white {
             background-color: #ffffff;
         }
         .p-6 {
             padding: 1.5rem;
+        }
+        @media (max-width: 640px) {
+            .p-6 {
+                padding: 1rem;
+            }
         }
         .shadow-lg {
             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -364,6 +431,16 @@
         .gap-12 {
             gap: 3rem;
         }
+        @media (max-width: 768px) {
+            .gap-12 {
+                gap: 2rem;
+            }
+        }
+        @media (max-width: 640px) {
+            .gap-12 {
+                gap: 1.5rem;
+            }
+        }
         .items-center {
             align-items: center;
         }
@@ -381,6 +458,11 @@
         }
         .max-w-4xl {
             max-width: 56rem;
+        }
+        @media (max-width: 768px) {
+            .max-w-4xl {
+                max-width: 100%;
+            }
         }
         .grid-cols-1 {
             grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -493,10 +575,10 @@
                 display: flex;
             }
             .md\:grid-cols-4 {
-                grid-template-columns: repeat(4, minmax(0, 1fr));
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
             .md\:grid-cols-2 {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-template-columns: repeat(1, minmax(0, 1fr));
             }
             .md\:flex-row {
                 flex-direction: row;
@@ -505,7 +587,8 @@
                 margin-top: 0;
             }
             .footer-grid {
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
             }
         }
         @media (min-width: 1024px) {
