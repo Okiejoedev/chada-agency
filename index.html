@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chada - Social Media Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #9333ea, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #9333ea, #ec4899);
+        }
+        .gradient-bg-light {
+            background: linear-gradient(135deg, #faf5ff, #fdf2f8);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur">
+        <div class="container mx-auto flex h-16 items-center justify-between px-4">
+            <div class="flex items-center space-x-2">
+                <div class="h-8 w-8 gradient-bg rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-lg">C</span>
+                </div>
+                <span class="font-bold text-xl">Chada</span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-6">
+                <a href="#services" class="text-sm font-medium hover:text-purple-600 transition-colors">Services</a>
+                <a href="#about" class="text-sm font-medium hover:text-purple-600 transition-colors">About</a>
+                <a href="#portfolio" class="text-sm font-medium hover:text-purple-600 transition-colors">Portfolio</a>
+                <a href="#contact" class="text-sm font-medium hover:text-purple-600 transition-colors">Contact</a>
+            </nav>
+            <button class="gradient-bg text-white px-4 py-2 rounded-lg hover:opacity-90 transition-opacity">
+                Get Started
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 px-4 overflow-hidden">
+        <div class="absolute inset-0 gradient-bg-light -z-10"></div>
+        <div class="container mx-auto text-center">
+            <div class="inline-block mb-4 bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">
+                🚀 Social Media Experts
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                <span class="gradient-text">Elevate Your Brand with</span>
+                <br>
+                <span class="gradient-text">Powerful Social Media</span>
+            </h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                We help brands connect, engage, and grow through strategic social media marketing that drives real results.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="gradient-bg text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity">
+                    Start Your Journey
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+                <button class="border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-lg hover:bg-purple-50 transition-colors">
+                    View Our Work
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-purple-600">500+</div>
+                    <div class="text-sm text-gray-600">Clients Served</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-pink-600">2.5M+</div>
+                    <div class="text-sm text-gray-600">Engagements</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-purple-600">98%</div>
+                    <div class="text-sm text-gray-600">Client Satisfaction</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-pink-600">50+</div>
+                    <div class="text-sm text-gray-600">Awards Won</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Comprehensive social media solutions tailored to your brand's unique needs
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-instagram text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Social Media Strategy</h3>
+                    <p class="text-gray-600 mb-4">
+                        Custom strategies designed to amplify your brand voice and achieve your business goals
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Content Planning
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Audience Analysis
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Growth Strategy
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-users text-pink-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Content Creation</h3>
+                    <p class="text-gray-600 mb-4">
+                        Engaging content that captures attention and drives meaningful interactions
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Visual Content
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Video Production
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Copywriting
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-chart-line text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Paid Advertising</h3>
+                    <p class="text-gray-600 mb-4">
+                        Targeted ad campaigns that reach your ideal audience and maximize ROI
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Facebook Ads
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Instagram Ads
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            LinkedIn Ads
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-chart-bar text-pink-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Analytics & Reporting</h3>
+                    <p class="text-gray-600 mb-4">
+                        Detailed insights and performance tracking to optimize your social media presence
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Performance Metrics
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Monthly Reports
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Strategy Optimization
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-comments text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Community Management</h3>
+                    <p class="text-gray-600 mb-4">
+                        Building and nurturing engaged communities around your brand
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            24/7 Response
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Comment Moderation
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Community Growth
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-bullseye text-pink-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Influencer Marketing</h3>
+                    <p class="text-gray-600 mb-4">
+                        Strategic partnerships with influencers to expand your reach and credibility
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Influencer Vetting
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            Campaign Management
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            ROI Tracking
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-gray-50">
+        <div class="container mx-auto">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-block mb-4 bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">
+                        About Chada
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                        We're Your Social Media Growth Partner
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Founded in 2020, Chada has become a leading social media agency helping brands across the globe build meaningful connections with their audience.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Our team of creative strategists, content creators, and data analysts work together to deliver campaigns that not only look great but drive measurable results.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-trophy text-purple-600 text-2xl"></i>
+                            <div>
+                                <div class="font-semibold">Award Winning</div>
+                                <div class="text-sm text-gray-600">50+ Industry Awards</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-users text-pink-600 text-2xl"></i>
+                            <div>
+                                <div class="font-semibold">Expert Team</div>
+                                <div class="text-sm text-gray-600">25+ Specialists</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="space-y-4">
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <i class="fab fa-instagram text-purple-600 text-3xl mb-2"></i>
+                            <div class="text-2xl font-bold">5M+</div>
+                            <div class="text-sm text-gray-600">Instagram Reach</div>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <i class="fas fa-heart text-pink-600 text-3xl mb-2"></i>
+                            <div class="text-2xl font-bold">10M+</div>
+                            <div class="text-sm text-gray-600">Total Engagement</div>
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-8">
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <i class="fas fa-share text-purple-600 text-3xl mb-2"></i>
+                            <div class="text-2xl font-bold">500K+</div>
+                            <div class="text-sm text-gray-600">Shares Generated</div>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <i class="fas fa-eye text-pink-600 text-3xl mb-2"></i>
+                            <div class="text-2xl font-bold">50M+</div>
+                            <div class="text-sm text-gray-600">Total Impressions</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 px-4">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Success Stories</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    See how we've helped brands like yours achieve remarkable social media success
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Card 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="h-48 gradient-bg-light flex items-center justify-center">
+                        <i class="fas fa-chart-line text-purple-600 text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Fashion Brand X</h3>
+                        <p class="text-gray-600 mb-4">Instagram Growth Campaign</p>
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-sm">
+                                <span>Followers Growth</span>
+                                <span class="font-semibold text-green-600">+350%</span>
+                            </div>
+                            <div class="flex justify-between text-sm">
+                                <span>Engagement Rate</span>
+                                <span class="font-semibold text-green-600">+180%</span>
+                            </div>
+                            <div class="flex justify-between text-sm">
+                                <span>Sales from Social</span>
+                                <span class="font-semibold text-green-600">+220%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Card 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center">
+                        <i class="fas fa-users text-pink-600 text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Tech Startup Y</h3>
+                        <p class="text-gray-600 mb-4">LinkedIn Strategy</p>
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-sm">
+                                <span>Connection Growth</span>
+                                <span class="font-semibold text-green-600">+280%</span>
+                            </div>
+                            <div class="flex justify-between text-sm">
+                                <span>Lead Generation</span>
+                                <span class="font-semibold text-green-600">+400%</span>
+                            </div>
+                            <div class="flex justify-between text-sm">
+                                <span>Brand Mentions</span>
+                                <span class="font-semibold text-green-600">+150%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Card 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="h-48 gradient-bg-light flex items-center justify-center">
+                        <i class="fas fa-bullseye text-purple-600 text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Restaurant Z</h3>
+                        <p class="text-gray-600 mb-4">Multi-Platform Management</p>
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-sm">
+                                <span>Reach Increase</span>
+                                <span class="font-semibold text-green-600">+420%</span>
+                            </div>
+                            <div class="flex justify-between text-sm">
+                                <span>Customer Reviews</span>
+                                <span class="font-semibold text-green-600">+200%</span>
+                            </div>
+                            <div class="flex justify-between text-sm">
+                                <span>Foot Traffic</span>
+                                <span class="font-semibold text-green-600">+180%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Grow Together</h2>
+                <p class="text-xl text-gray-600">
+                    Ready to take your social media to the next level? Get in touch with us today.
+                </p>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <form action="mailto:hello@chada.agency" method="post" enctype="text/plain" class="space-y-6">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium mb-2">Name *</label>
+                                <input type="text" id="name" name="name" required class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label for="company" class="block text-sm font-medium mb-2">Company</label>
+                                <input type="text" id="company" name="company" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600" placeholder="Your Company">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium mb-2">Email *</label>
+                            <input type="email" id="email" name="email" required class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600" placeholder="your@email.com">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium mb-2">Message *</label>
+                            <textarea id="message" name="message" required rows="5" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600" placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full gradient-bg text-white py-3 rounded-lg hover:opacity-90 transition-opacity">
+                            Send Message
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="font-semibold mb-4">Get in Touch</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-envelope text-purple-600"></i>
+                                <span>hello@chada.agency</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-phone text-purple-600"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-map-marker-alt text-purple-600"></i>
+                                <span>New York, NY & Los Angeles, CA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center hover:bg-purple-200 transition-colors">
+                                <i class="fab fa-instagram text-purple-600"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-pink-100 rounded-lg flex items-center justify-center hover:bg-pink-200 transition-colors">
+                                <i class="fab fa-facebook text-pink-600"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center hover:bg-purple-200 transition-colors">
+                                <i class="fab fa-twitter text-purple-600"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-pink-100 rounded-lg flex items-center justify-center hover:bg-pink-200 transition-colors">
+                                <i class="fab fa-linkedin text-pink-600"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-4">Business Hours</h3>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between">
+                                <span>Monday - Friday</span>
+                                <span>9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Saturday</span>
+                                <span>10:00 AM - 4:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="h-8 w-8 gradient-bg rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">C</span>
+                        </div>
+                        <span class="font-bold text-xl">Chada</span>
+                    </div>
+                    <p class="text-sm text-gray-600">
+                        Your partner in social media success.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li>Social Strategy</li>
+                        <li>Content Creation</li>
+                        <li>Paid Advertising</li>
+                        <li>Analytics</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li>About Us</li>
+                        <li>Case Studies</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Cookie Policy</li>
+                        <li>GDPR</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-8 border-gray-200">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-600">
+                    © 2024 Chada Agency. All rights reserved.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle (if needed)
+        function toggleMobileMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
